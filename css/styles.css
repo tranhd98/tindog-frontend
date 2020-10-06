@@ -1,0 +1,180 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+.container-fluid{
+  padding: 7% 15%;
+}
+/* title section  */
+#title{
+  background-color: #ff4c68;
+  text-align: left;
+}
+#title .container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/* Navigation bar */
+.title-heading, .cta-footer{
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+.navbar{
+  padding:0 0 5rem;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+/* download buttom */
+.fixed-content{
+  padding-top: 7rem;
+}
+.download-button{
+  margin: 0.8rem 0.6rem 0 0.1rem;
+}
+
+/* picture main */
+.rotated{
+  margin-left: 10rem;
+  width:50%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/* Feature section */
+
+#features{
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+
+.feature-heading{
+  font-size:1.5rem;
+  font-weight: bold;
+}
+
+.fix-feature-box{
+  padding: 3%;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+
+/*testimonial section*/
+
+#testimonials{
+  background-color: #ef8172;
+  color: #ffff;
+}
+.testimonial-image{
+  margin: 20px;
+  width: 10%;
+  border-radius: 100%;
+}
+.testimonial-text{
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+#press{
+  background-color: #ef8172;
+  padding-bottom: 4rem;
+}
+.press-fixed{
+  width: 15%;
+  margin: 20px 20px 15px;
+}
+/* pricing section */
+
+#pricing{
+  padding: 100px;
+}
+.pricing-col{
+  padding: 3% 2%;
+}
+.card-1-2{
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.price-heading{
+  font-size:1.5rem;
+  font-weight: bold;
+}
+.pricing-main-heading{
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+.pricing-tag{
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+/* cta section */
+
+#cta{
+  background-color: #ff4c68;
+}
+
+/* footer section */
+
+#footer{
+  color: #8f8f8f;
+}
+.iconFinal{
+  padding-left: 1rem;
+}
+
+
+@media (max-width: 990px){
+  #title{
+    text-align: center;
+  }
+  .rotated{
+    position: static;
+    transform: rotate(0deg);
+    margin-left: 0;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1120px){
+  .rotated{
+      padding-top: 10rem;
+
+  }
+}
+@media (min-width: 991px) and (max-width: 1024px){
+  .rotated{
+    padding-top:15rem;
+  }
+}
